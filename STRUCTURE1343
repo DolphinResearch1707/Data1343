@@ -1,0 +1,65 @@
+#include<iostream.h>
+#include<stdio.h>
+#include<conio.h>
+#include(time.h>
+#int i;j,k;
+void (float Size;float a[10000];
+{float temp;
+for i=0;i++)
+{for(j=o;j<(Size-1)-i;j++)
+{
+temp=a[j+1]
+a[j+1]=a[j]
+a[j]=temp;
+}
+}
+}
+}
+void main()
+{
+clrscr();
+randomized();
+float n;
+  float b[15000]
+char ch;
+do
+{cout,,"Enter Size of the Array";
+cin>.n;
+for(i=o;i<n;i++)
+{
+b[i]=i;
+}
+start=clock();
+bubb(n,b);
+end=clock();
+cout<<"Best Time"
+<<(end-start)/CLK_T(K)<<"Sec";
+For(I=o;i<n;i++)
+{b[i]=Random(n)}
+start=end clock();
+bubb(n,b);
+end= clock();
+cout<<"Avg Time"<<((End-Start)/CLK_TCK)<<Sec;
+Float k=n;
+for(i=o;i<n;i++)
+{for(i=o;i<n;i++)
+{b[i]=k;k--;}
+start=clock();
+bubb(n,b);
+end=clock();
+cout<<"Worst Case"<<(End-Start/CLK_TCK)<<"Sec";
+cout<<"Do you want to Continue">
+cin<<ch;
+}
+while(ch=='y'& ch=="y")
+getch()"
+}
+For I=L To U
+{for J=L to [(U-1)-1]
+{For R[J]>RR(J+1)
+R=(J)>RR(J+1),then
+}
+}
+{
+END
+
